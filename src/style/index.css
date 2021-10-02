@@ -1,0 +1,122 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.4;
+}
+
+body {
+  background: url("/Projects/Subway\ Counter\ App/src/img/station.jpg")
+    no-repeat center center/cover;
+  height: 100vh;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+  font-weight: bold;
+  text-align: center;
+  /* line-height: 1.4; */
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  color: #fff; /* white */
+  font-weight: bold;
+  width: 200px;
+  margin: 0.25rem 0.125rem;
+  border-radius: 0.3125rem;
+}
+
+/* Utility Ids and Classes */
+#error-message {
+  color: #ff2400; /* scarlet */
+  visibility: hidden;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#primary-heading {
+  margin: 0.625rem 0;
+  color: #fff;
+  font-size: 2rem;
+}
+
+#count-element {
+  font-size: 3.125rem;
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+#secondary-heading {
+  margin: 0.8rem 0 0;
+  padding-left: 0.6875rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+#save-element {
+  color: #fff;
+  font-size: 3.125rem;
+  padding-top: 1rem;
+}
+
+.flex-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#increment-btn {
+  background: #8b0000; /* dark red */
+  transition: all 0.4s ease-out;
+}
+
+#increment-btn:hover {
+  background: #fa8072; /* salmon */
+  color: #333;
+}
+
+#save-btn {
+  background: #006400; /* dark green */
+  transition: all 0.4s ease-out;
+}
+
+#save-btn:hover {
+  background: #addfad; /* light moss green */
+  color: #333;
+}
+
+#decrement-btn {
+  background: #ff8c00; /* dark orange */
+  transition: all 0.4s ease-out;
+}
+
+#decrement-btn:hover {
+  background: #ffc87c; /* topaz */
+  color: #333;
+}
+
+#clear-btn {
+  background: #333; /* dark gray */
+  transition: all 0.4s ease-out;
+}
+
+#clear-btn:hover {
+  background: #c0c0c0; /* silver */
+  color: #333;
+}

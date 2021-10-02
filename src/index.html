@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Projects/Subway Counter App/src/css/index.css">
+    <link rel="stylesheet" href="/Projects/Subway Counter App/src/css/responsive.css">
+    <title>Subway Counter App</title>
+  </head>
+  <body>
+    <p id="error-message"></p>
+    <h1 id="primary-heading">People entered:</h1>
+    <h2 id="count-element">0</h2>
+    <div class="flex-container">
+      <button id="increment-btn" onclick="increment();">INCREMENT</button>
+      <button id="decrement-btn" onclick="decrement();">DECREMENT</button>
+      <button id="save-btn" onclick="save();">SAVE</button>
+      <button id="clear-btn" onclick="restore();">CLEAR</button>
+    </div>
+    <h2 id="secondary-heading">Previous entries: </h2>
+    <p id="save-element"></p>    
+    <!-- Local JS File -->
+    <script src="/Projects/Subway Counter App/src/js/index.js"></script>
+  </body>
+</html>

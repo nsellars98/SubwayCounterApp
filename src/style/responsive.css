@@ -1,0 +1,74 @@
+/* Smartphones */
+@media only screen and (max-width: 500px) {
+  #error-message {
+    font-size: 1rem;
+  }
+}
+
+/* Tablets */
+@media (min-width: 501px) and (max-width: 768px) {
+  #error-message {
+    font-size: 1.5rem;
+  }
+
+  #primary-heading {
+    font-size: 2rem;
+  }
+
+  #count-element {
+    font-size: 3.125rem;
+  }
+
+  #secondary-heading {
+    font-size: 2rem;
+  }
+
+  #save-element {
+    font-size: 3.125rem;
+  }
+}
+
+/* Normal */
+@media (min-width: 769px) and (max-width: 1200px) {
+}
+
+/* Widescreen */
+@media (min-width: 1201px) {
+}
+
+/* Landscape */
+@media (max-height: 500px) {
+  button {
+    font-size: 0.75rem;
+    padding: 0.75rem 1.5rem;
+    width: 125px;
+  }
+
+  #error-message {
+    font-size: 1rem;
+  }
+
+  #primary-heading {
+    margin: 0.3125rem 0;
+    font-size: 1.5rem;
+  }
+
+  #count-element {
+    font-size: 2rem;
+    padding-bottom: 0.75rem;
+  }
+
+  #secondary-heading {
+    margin: 0.8rem 0 0;
+    font-size: 1.5rem;
+  }
+
+  #save-element {
+    font-size: 2rem;
+    padding-top: 0.75rem;
+  }
+
+  .flex-container {
+    flex-direction: row;
+  }
+}
